@@ -38,6 +38,35 @@ body{
     margin-top: 99px;
     margin-bottom: 90px;
 }
+p{
+    color: #AAAAAA;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+h1{
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.caixa{
+    min-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+    align-items: center;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+}
+.entrou{
+    background-color: #DCDCDC;
+}
+
+.todos{
+    background-color: #ffffff;
+}
 .footer{
 
     width: 100%;
