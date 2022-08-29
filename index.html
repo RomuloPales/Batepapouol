@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Chat Uol</title>
-</head>
-<body>
-        <div class="header">
+  </head>
+  <body>
+    <div class="header">
+      <img src="imagens/logo 1.png" />
+      <ion-icon name="people"></ion-icon>
+    </div>
+    <div class="mensagens"></div>
 
-           <div class="titulo"> <img src="imagens/logo 1.png"> 
-            <ion-icon name="people"></ion-icon>
-        </div>
+    <div class="footer">
+      <div class="texto">
+        <input
+          class="escrito"
+          type="text"
+          name="nome"
+          value=""
+          placeholder="Escreva aqui..."
+        />
+      </div>
+      <ion-icon name="paper-plane-outline" onclick="enviarmensagem()"></ion-icon>
+    </div>
 
-            <div class="footer">
-                <div class="texto">Olá mundo</div>
-                <ion-icon name="paper-plane-outline"></ion-icon>
-            </div>
-
-        </div>
-       
-        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-   <script src="scripts.js"></script> 
-</body>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="scripts.js"></script>
+  </body>
 </html>
